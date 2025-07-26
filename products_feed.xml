@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2025-07-26 19:13">
+  <shop>
+    <name>DIY mag</name>
+    <company>DIY mag</company>
+    <url>https://diy-mag.prom.ua/</url>
+    <currencies>
+      <currency id="USD" rate="CB"/>
+      <currency id="UAH" rate="1"/>
+      <currency id="BYN" rate="CB"/>
+      <currency id="KZT" rate="CB"/>
+      <currency id="EUR" rate="CB"/>
+      <currency id="RON" rate="CB"/>
+    </currencies>
+    <categories>
+      <category id="144906784">Авто</category>
+      <category id="144906815" parentId="144906784">Запчасти</category>
+      <category id="144906816" parentId="144906815">Подвеска</category>
+      <category id="144906847" parentId="144906815">Выпускные коллекторы</category>
+    </categories>
+  <offers>
+<offer id="2676735183" available="false">
+    <url>https://diy-mag.prom.ua/p2676735183-vypusknoj-kollektor-seriya.html</url>
+    <price>5700</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>144906847</categoryId>
+    <picture>https://images.prom.ua/6746501531_vypusknoj-kollektor-d-seriya.jpg</picture>
+    <picture>https://images.prom.ua/6746501532_vypusknoj-kollektor-d-seriya.jpg</picture>
+    <picture>https://images.prom.ua/6746501519_vypusknoj-kollektor-d-seriya.jpg</picture>
+    <picture>https://images.prom.ua/6746501530_vypusknoj-kollektor-d-seriya.jpg</picture>
+    <picture>https://images.prom.ua/6760907312_vypusknoj-kollektor-d-seriya.jpg</picture>
+    <pickup>false</pickup>
+    <delivery>true</delivery>
+    <name>Выпускной коллектор D-серия Honda Civic 4-2-1.</name>
+    <name_ua>Випускний колектор D-серія Honda Civic 4-2-1</name_ua>
+    <vendor>Honda</vendor>
+    <description><![CDATA[<p><strong>Выпускной коллектор 4-2-1 для Honda Civic D-серия</strong></p>
+
+<p>Выпускной коллектор 4-2-1, предназначенный для двигателей D-серии Honda Civic, &ndash; это идеальное решение для улучшения производительности вашего автомобиля. Благодаря конструкции 4-2-1, коллектор обеспечивает оптимальный отвод отходящего газа, повышает крутящий момент на низких и средних оборотах и способствует более эффективной работе двигателя.</p>
+
+<p>Изготовленный из качественной стали, этот коллектор отличается прочностью и коррозионной стойкостью, а точная геометрия гарантирует легкую установку и идеальное прилегание. Подходит для разных модификаций Honda Civic с моторами D-серии.</p>
+
+<p>Улучшайте динамику и звук Honda Civic с надежным выпускным коллектором 4-2-1!</p>
+]]></description>
+    <description_ua><![CDATA[<p data-end="132" data-start="80"><strong data-end="132" data-start="80">Випускний колектор 4-2-1 для Honda Civic D-серія</strong></p>
+
+<p data-end="689" data-start="134">Випускний колектор 4-2-1, призначений для двигунів D-серії Honda Civic, &mdash; це ідеальне рішення для покращення продуктивності вашого автомобіля. Завдяки конструкції 4-2-1, колектор забезпечує оптимальний відвід відпрацьованих газів, підвищує крутний момент на низьких і середніх обертах та сприяє більш ефективній роботі двигуна.<br data-end="464" data-start="461" />
+Виготовлений із якісної сталі, цей колектор вирізняється міцністю та стійкістю до корозії, а точна геометрія гарантує легке встановлення та ідеальне прилягання. Підходить для різних модифікацій Honda Civic з моторами D-серії.</p>
+
+<p data-end="776" data-start="691">Покращуйте динаміку та звук вашого Honda Civic з надійним випускним колектором 4-2-1!</p>
+]]></description_ua>
+    <param name="Совместимость с маркой">Honda</param>
+    <param name="Совместимость с моделью">Civic</param>
+    <param name="Состояние">Новое</param>
+  </offer>
+  <offer id="2676973200" available="true">
+    <url>https://diy-mag.prom.ua/p2676973200-razvesnye-rychagi-perednie.html</url>
+    <price>3000</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>144906816</categoryId>
+    <picture>https://images.prom.ua/6746935113_razvesnye-rychagi-perednie.jpg</picture>
+    <pickup>false</pickup>
+    <delivery>true</delivery>
+    <name>Развесные рычаги передние (регулируемые рычаги развала/схождения) для Honda Civic EK</name>
+    <name_ua>Розвальні важелі передні (регульовані важелі розвалу/сходження) для Honda Civic EK</name_ua>
+    <vendor>Honda</vendor>
+    <description><![CDATA[<p><strong>Развесные рычаги для Honda Civic EK</strong></p>
+
+<p>Развесные рычаги (регулируемые рычаги развала/схождения) для Honda Civic EK &ndash; идеальное решение для точной настройки подвески и улучшения управляемости авто. Установка таких рычагов позволяет регулировать угол развала колес, что особенно важно для тюнинга, активной езды или использования на треке. Изготовлены из крепких материалов, развальные рычаги устойчивы к нагрузкам и коррозии, а качественная фурнитура обеспечивает длительный срок службы. Подходят для Honda Civic 6-го поколения (кузов EK). Улучшайте точность управления Civic EK вместе с качественными развальными рычагами!</p>
+]]></description>
+    <description_ua><![CDATA[<p data-end="121" data-start="82"><strong data-end="121" data-start="82">Розвальні важелі для Honda Civic EK</strong></p>
+
+<p data-end="610" data-start="123">Розвальні важелі (регульовані важелі розвалу/сходження) для Honda Civic EK &mdash; ідеальне рішення для точної настройки підвіски та покращення керованості авто. Встановлення таких важелів дозволяє регулювати кут розвалу коліс, що особливо важливо для тюнінгу, активної їзди або використання на треку.<br data-end="421" data-start="418" />
+Виготовлені з міцних матеріалів, розвальні важелі стійкі до навантажень і корозії, а якісна фурнітура забезпечує тривалий термін служби. Підходять для Honda Civic 6-го покоління (кузов EK).</p>
+
+<p data-end="709" data-start="612">Покращуйте стійкість та точність керування своїм Civic EK разом із якісними розвальними важелями!</p>
+]]></description_ua>
+    <param name="Состояние">Новое</param>
+  </offer>
+  <offer id="2676981296" available="true">
+    <url>https://diy-mag.prom.ua/p2676981296-zadnie-poperechnye-nizhnie.html</url>
+    <price>7500</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>144906816</categoryId>
+    <picture>https://images.prom.ua/6746943600_zadnie-poperechnye-nizhnie.jpg</picture>
+    <picture>https://images.prom.ua/6746943847_zadnie-poperechnye-nizhnie.jpg</picture>
+    <pickup>false</pickup>
+    <delivery>true</delivery>
+    <name>Задние поперечные нижние рычаги под стабилизатор Honda Civic 5 EG</name>
+    <name_ua>Задні поперечні нижні важелі під стабілізатор Honda Civic 5 EG</name_ua>
+    <vendor>Honda</vendor>
+    <description><![CDATA[<p><strong>Задние поперечные нижние рычаги под стабилизатор Honda Civic 5 EG</strong></p>
+
+<p>Эти задние поперечные нижние рычаги предназначены для Honda Civic 5 поколения (кузов EG) и совместимы со стабилизатором. Рычаги изготовлены из крепких материалов, что обеспечивает надежность и долговечность даже при интенсивной эксплуатации. Установка рычагов улучшает жесткость подвески, повышает управляемость и устойчивость авто в поворотах.</p>
+
+<p>Специальные крепления для стабилизатора обеспечивают правильную работу подвески и максимальный контроль над автомобилем.</p>
+]]></description>
+    <description_ua><![CDATA[<p data-end="170" data-start="104"><strong data-end="170" data-start="104">Задні поперечні нижні важелі під стабілізатор Honda Civic 5 EG</strong></p>
+
+<p data-end="632" data-start="172">Ці задні поперечні нижні важелі призначені для Honda Civic 5 покоління (кузов EG) та сумісні зі стабілізатором. Важелі виготовлені з міцних матеріалів, що забезпечує надійність та довговічність навіть при інтенсивній експлуатації.<br data-end="405" data-start="402" />
+Встановлення таких важелів покращує жорсткість підвіски, підвищує керованість та стійкість авто в поворотах. Спеціальні кріплення для стабілізатора забезпечують правильну роботу підвіски й максимальний контроль над автомобілем.</p>
+
+<p data-end="707" data-start="634">Ідеальний вибір для оновлення або тюнінгу підвіски вашого Honda Civic EG!</p>
+]]></description_ua>
+  </offer>
+  <offer id="2676986836" available="true">
+    <url>https://diy-mag.prom.ua/p2676986836-perednie-razvesnye-rychagi.html</url>
+    <price>5000</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>144906816</categoryId>
+    <picture>https://images.prom.ua/6746953056_perednie-razvesnye-rychagi.jpg</picture>
+    <pickup>false</pickup>
+    <delivery>true</delivery>
+    <name>Передние развесные рычаги (регулируемые рычаги развала/схождения) для Honda Civic 5 EG/Civic 6 MA MB MC</name>
+    <name_ua>Передні розвальні важелі (регульовані важелі розвалу/сходження) для Honda Civic 5 EG/Civic 6 MA MB MC</name_ua>
+    <vendor>Honda</vendor>
+    <description><![CDATA[<p><strong>Передние развесные рычаги (регулируемые рычаги развала/схождения) для Honda Civic 5 EG</strong></p>
+
+<p>Передние регулируемые рычаги развала/схождения для Honda Civic 5 поколения (кузов EG) позволяют точно настроить геометрию подвески в соответствии с вашими потребностями. Изготовленные из высококачественных материалов, такие рычаги обеспечивают надежность, долговечность и легкость регулировки.</p>
+
+<p>Оптимизируйте управляемость и устойчивость Honda Civic EG с регулируемыми передними рычагами развала и схождения!</p>
+]]></description>
+    <description_ua><![CDATA[<p data-end="212" data-start="124"><strong data-end="212" data-start="124">Передні розвальні важелі (регульовані важелі розвалу/сходження) для Honda Civic 5 EG</strong></p>
+
+<p data-end="717" data-start="214">Передні регульовані важелі розвалу/сходження для Honda Civic 5 покоління (кузов EG) дозволяють точно налаштувати геометрію підвіски відповідно до ваших потреб. Вони ідеально підходять для тюнінгу, активної їзди або використання на треку, де важлива максимальна точність керування та зчеплення з дорогою.<br data-end="520" data-start="517" />
+Виготовлені з високоякісних матеріалів, такі важелі забезпечують надійність, довговічність та легкість регулювання. Призначені для простого встановлення на оригінальні місця без додаткових доробок.</p>
+
+<p data-end="833" data-start="719">Оптимізуйте керованість і стійкість свого Honda Civic EG із регульованими передніми важелями розвалу та сходження!</p>
+]]></description_ua>
+  </offer>
+  <offer id="2676996103" available="true">
+    <url>https://diy-mag.prom.ua/p2676996103-zadnij-stabilizator-dlya.html</url>
+    <price>6100</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>144906816</categoryId>
+    <picture>https://images.prom.ua/6746970120_zadnij-stabilizator-24.jpg</picture>
+    <picture>https://images.prom.ua/6746970421_zadnij-stabilizator-24.jpg</picture>
+    <picture>https://images.prom.ua/6746970627_zadnij-stabilizator-24.jpg</picture>
+    <pickup>false</pickup>
+    <delivery>true</delivery>
+    <name>Задний стабилизатор 24 мм для Honda Civic EG/EK</name>
+    <name_ua>Задній стабілізатор 24 мм для Honda Civic EG/EK</name_ua>
+    <vendor>Honda</vendor>
+    <description><![CDATA[<p>Задний стабилизатор 24 мм для Honda Civic EG/EK</p>
+
+<p>Задний стабилизатор диаметром 24 мм идеально подходит для моделей Honda Civic 5 и 6 поколения (кузова EG, EK). Такой стабилизатор значительно повышает жесткость задней подвески, уменьшает крены кузова в поворотах и улучшает устойчивость автомобиля даже при агрессивной езде. Изготовлен из высококачественной стали, стабилизатор имеет длительный срок службы и способен выдерживать высокие нагрузки. Легко монтируется как в стандартные места, так и для тюнингованных подвесок.</p>
+
+<p>Обеспечьте своему Civic EG/EK лучший контроль на дорогостоящем &ndash; выбирайте надежный задний стабилизатор 24 мм!</p>
+]]></description>
+    <description_ua><![CDATA[<p data-end="137" data-start="86"><strong data-end="137" data-start="86">Задній стабілізатор 24 мм для Honda Civic EG/EK</strong></p>
+
+<p data-end="595" data-start="139">Задній стабілізатор діаметром 24 мм ідеально підходить для моделей Honda Civic 5 та 6 покоління (кузови EG, EK). Такий стабілізатор значно підвищує жорсткість задньої підвіски, зменшує крени кузова у поворотах та покращує стійкість авто навіть при агресивній їзді.<br data-end="406" data-start="403" />
+Виготовлений із високоякісної сталі, стабілізатор має довгий термін служби й здатен витримувати високі навантаження. Легко монтується як у стандартні місця, так і для тюнінгованих підвісок.</p>
+
+<p data-end="699" data-start="597">Забезпечте своєму Civic EG/EK кращий контроль на дорозі &mdash; обирайте надійний задній стабілізатор 24 мм!</p>
+]]></description_ua>
+  </offer>
+  <offer id="2677788507" available="true">
+    <url>https://diy-mag.prom.ua/p2677788507-zadnie-rychagi-shozhdeniya.html</url>
+    <price>3000</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>144906816</categoryId>
+    <picture>https://images.prom.ua/6747980139_zadnie-rychagi-shozhdeniya.jpg</picture>
+    <pickup>false</pickup>
+    <delivery>true</delivery>
+    <name>Задние рычаги схождения (регулируемые) Honda Civic 88-00</name>
+    <name_ua>Задні важелі сходження (регульовані) Honda Civic 88-00</name_ua>
+    <vendor>Honda</vendor>
+    <description><![CDATA[<p data-end="771" data-start="711"><strong data-end="771" data-start="711">Задние рычаги схождения (регулируемые) Honda Civic 88-00</strong></p>
+
+<p data-end="1329" data-start="773">Регулируемые задние рычаги схождения предназначены для точной настройки развала и схождения задней оси вашего Honda Civic 1988-2000 годов выпуска. Рычаги изготовлены из прочных материалов, обеспечивают надежность и долгий срок службы даже при интенсивной эксплуатации. Идеальный выбор для тюнинга подвески, установки спортивной или заниженной подвески, а также для корректировки геометрии после занижения автомобиля. Простая установка без доработок. Улучшают управляемость и износостойкость шин. Рекомендованы для любителей активного вождения и автоспорта.</p>
+]]></description>
+    <description_ua><![CDATA[<p data-end="133" data-start="75"><strong data-end="133" data-start="75">Задні важелі сходження (регульовані) Honda Civic 88-00</strong></p>
+
+<p data-end="688" data-start="135">Регульовані задні важелі сходження призначені для точного налаштування розвалу та сходження задньої осі вашого Honda Civic 1988-2000 років випуску. Важелі виготовлені з міцних матеріалів, що забезпечують довговічність і надійність навіть при інтенсивній експлуатації. Ідеально підходять для тюнінгу підвіски, встановлення спортивної або заниженої підвіски, а також для корекції геометрії після зниження авто. Просте встановлення без доопрацювань. Покращують керованість та зносостійкість шин. Рекомендовано для любителів активного водіння та автоспорту.</p>
+]]></description_ua>
+  </offer>
+  <offer id="2677794762" available="true">
+    <url>https://diy-mag.prom.ua/p2677794762-zadnie-razvalnye-reguliruemye.html</url>
+    <price>3500</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>144906816</categoryId>
+    <picture>https://images.prom.ua/6747986813_zadnie-razvalnye-reguliruemye.jpg</picture>
+    <picture>https://images.prom.ua/6747986814_zadnie-razvalnye-reguliruemye.jpg</picture>
+    <picture>https://images.prom.ua/6747986815_zadnie-razvalnye-reguliruemye.jpg</picture>
+    <pickup>false</pickup>
+    <delivery>true</delivery>
+    <name>Задние развалные (регулируемые) рычаги Honda Civic 92-00 EG, Integra</name>
+    <name_ua>Задні розвальні (регульовані) важелі  Honda Civic 92-00 EG, Integra</name_ua>
+    <vendor>Honda</vendor>
+    <description><![CDATA[<p><strong>Задние развальные (регулируемые) рычаги Honda Civic 92-00 EG, Integra</strong></p>
+
+<p>Регулируемые задние рычаги развала предназначены для Honda Civic 1992-2000 (кузов EG) и Acura Integra. Позволяют точно настроить угол развала задних колес для улучшения управляемости, устойчивости в поворотах и предотвращения неравномерного износа шин.</p>
+
+<p>Рычаги изготовлены из прочных и износостойких материалов, что гарантирует их надежность и долговечность даже при активной эксплуатации или тюнинге подвески. Простая установка на штатные места.</p>
+
+<p>Идеальное решение для доработки подвески, улучшения сцепления с дорогой и настройки авто под свой стиль вождения!</p>
+]]></description>
+    <description_ua><![CDATA[<p data-end="173" data-start="103"><strong data-end="173" data-start="103">Задні розвальні (регульовані) важелі Honda Civic 92-00 EG, Integra</strong></p>
+
+<p data-end="612" data-start="175">Регульовані задні важелі розвалу призначені для Honda Civic 1992&ndash;2000 (кузов EG) та Acura Integra. Дозволяють точно налаштувати кут розвалу задніх коліс для покращення керованості, стійкості у поворотах та запобігання нерівномірному зносу шин.<br data-end="421" data-start="418" />
+Важелі виготовлені з міцних і зносостійких матеріалів, що гарантує їхню надійність та довговічність навіть при активній експлуатації або тюнінгу підвіски. Просте встановлення на штатні місця.</p>
+
+<p data-end="737" data-start="614">Ідеальне рішення для доопрацювання підвіски, покращення зчеплення з дорогою та налаштування авто під власний стиль водіння!</p>
+]]></description_ua>
+  </offer>
+  <offer id="2677802593" available="false">
+    <url>https://diy-mag.prom.ua/p2677802593-zadnie-poperechnye-nizhnie.html</url>
+    <price>6500</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>144906816</categoryId>
+    <picture>https://images.prom.ua/6747993669_zadnie-poperechnye-nizhnie.jpg</picture>
+    <picture>https://images.prom.ua/6747993657_zadnie-poperechnye-nizhnie.jpg</picture>
+    <pickup>false</pickup>
+    <delivery>true</delivery>
+    <name>Задние поперечные нижние рычаги под стабилизатор Honda Civic 6 EK</name>
+    <name_ua>Задні поперечні нижні важелі під стабілізатор Honda Civic 6 EK</name_ua>
+    <vendor>Honda</vendor>
+    <description><![CDATA[Задние поперечные нижние рычаги под стабилизатор Honda Civic 6 EK Задние поперечные нижние рычаги под стабилизаторы предназначены для Honda Civic 6 поколения (кузов EK). Они обеспечивают надежную крепь стабилизатора, повышают жесткость подвески и улучшают управляемость автомобиля в поворотах. Изготовлены из качественных и износостойких материалов, рычаги устойчивы к нагрузкам и коррозии, что гарантирует их долговечность даже при активной эксплуатации или тюнинге. Легко устанавливаются на штатные места без доработок. Улучшайте стабильность и контроль над своим Honda Civic EK с надежными задними поперечными рычагами под стабилизатор!]]></description>
+    <description_ua><![CDATA[<p data-end="166" data-start="100"><strong data-end="166" data-start="100">Задні поперечні нижні важелі під стабілізатор Honda Civic 6 EK</strong></p>
+
+<p data-end="618" data-start="168">Задні поперечні нижні важелі під стабілізатор призначені для Honda Civic 6 покоління (кузов EK). Вони забезпечують надійне кріплення стабілізатора, підвищують жорсткість підвіски та покращують керованість автомобіля в поворотах.<br data-end="399" data-start="396" />
+Виготовлені з якісних і зносостійких матеріалів, важелі стійкі до навантажень і корозії, що гарантує їхню довговічність навіть при активній експлуатації чи тюнінгу. Легко встановлюються на штатні місця без доопрацювань.</p>
+
+<p data-end="738" data-start="620">Покращуйте стабільність і контроль над своїм Honda Civic EK з надійними задніми поперечними важелями під стабілізатор!</p>
+]]></description_ua>
+  </offer>
+  <offer id="2677808460" available="false">
+    <url>https://diy-mag.prom.ua/p2677808460-komplekt-rasporok-stakanov.html</url>
+    <price>4500</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>144906815</categoryId>
+    <picture>https://images.prom.ua/6747999696_komplekt-rasporok-stakanov.jpg</picture>
+    <pickup>false</pickup>
+    <delivery>true</delivery>
+    <name>Комплект распорок стаканов Honda 92-00 Civic EG/EK, 93-97 Del Sol, 94-01 Integra DC2</name>
+    <name_ua>Комплект розпірок стаканів Honda 92-00 Civic EG/EK, 93-97 Del Sol, 94-01 Integra DC2</name_ua>
+    <vendor>Honda</vendor>
+    <description><![CDATA[<p>Комплект распорок стаканов Honda 92-00 Civic EG/EK, 93-97 Del Sol, 94-01 Integra DC2</p>
+
+<p>Комплект распорок стаканов предназначен для моделей Honda Civic 1992-2000 (EG/EK), Honda Del Sol 1993-1997 и Honda Integra DC2 1994-2001. Распорки значительно повышают жесткость кузова, уменьшают деформации во время езды и улучшают управляемость автомобиля на поворотах и активной эксплуатации. В комплект входят передняя и задняя распорки (или полный набор), изготовленные из прочных и долговечных материалов, устойчивых к коррозии. Монтаж производится в штатные места без дополнительных наработок.</p>
+
+<p>Идеальный выбор для тех, кто хочет улучшить стабильность, динамику и безопасность Honda</p>
+]]></description>
+    <description_ua><![CDATA[<p data-end="207" data-start="119"><strong data-end="207" data-start="119">Комплект розпірок стаканів Honda 92-00 Civic EG/EK, 93-97 Del Sol, 94-01 Integra DC2</strong></p>
+
+<p data-end="701" data-start="209">Комплект розпірок стаканів призначений для моделей Honda Civic 1992&ndash;2000 (EG/EK), Honda Del Sol 1993&ndash;1997 і Honda Integra DC2 1994&ndash;2001. Розпірки значно підвищують жорсткість кузова, зменшують деформації під час їзди та покращують керованість автомобіля на поворотах і при активній експлуатації.<br data-end="507" data-start="504" />
+У комплект входять передня та задня розпірки (або повний набір), які виготовлені з міцних і довговічних матеріалів, стійких до корозії. Монтаж здійснюється у штатні місця без додаткових доробок.</p>
+
+<p data-end="804" data-start="703">Ідеальний вибір для тих, хто хоче покращити стабільність, динаміку й безпеку свого Honda</p>
+]]></description_ua>
+  </offer>
+
+
+  </offers>
+</shop>
+</yml_catalog>
