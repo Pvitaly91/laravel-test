@@ -7,7 +7,7 @@
     <div class="flex flex-col md:flex-row gap-6">
         @if(!empty($product['pictures']))
             <div class="md:w-1/2">
-                <img src="{{ $product['pictures'][0] }}" alt="{{ $product['name'] }}" class="w-full rounded-lg">
+                <img src="{{ $product['pictures'][0] ?? '' }}" alt="{{ $product['name'] }}" class="w-full rounded-lg">
             </div>
         @endif
         <div class="md:w-1/2">
