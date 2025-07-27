@@ -13,8 +13,21 @@
                 <a href="{{ route('products.index') }}" class="hover:underline">Товари</a>
             </div>
         </nav>
-        <main class="container mx-auto p-4 flex-1">
-            @yield('content')
-        </main>
+        <div class="container mx-auto flex flex-1">
+            @isset($categories)
+                <aside class="w-48 p-4">
+                    <ul class="bg-white rounded-lg shadow p-2 space-y-1">
+                        @foreach($categories as $cat)
+                            <li>
+                                <a href="{{ route('categories.show', $cat['id']) }}" class="block hover:underline">{{ $cat['name'] }}</a>
+                            </li>
+                        @endforeach
+                    </ul>
+                </aside>
+            @endisset
+            <main class="flex-1 p-4">
+                @yield('content')
+            </main>
+        </div>
     </body>
 </html>

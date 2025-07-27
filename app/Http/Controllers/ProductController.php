@@ -2,64 +2,35 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Support\Facades\File;
 use Illuminate\Support\Collection;
+use App\Services\ProductFeedService;
 
 class ProductController extends Controller
 {
-    protected function loadProducts(): array
-    {
-        $path = base_path('products_feed.xml');
-        if (! File::exists($path)) {
-            return [];
-        }
-
-        $xml = simplexml_load_file($path);
-        if (! $xml) {
-            return [];
-        }
-
-        $offers = $xml->shop->offers->offer ?? [];
-        $products = [];
-        foreach ($offers as $offer) {
-            $products[] = [
-                'id' => (string) $offer['id'],
-                'available' => (string) $offer['available'] === 'true',
-                'url' => (string) $offer->url,
-                'price' => (string) $offer->price,
-                'currency' => (string) $offer->currencyId,
-                'name' => (string) $offer->name,
-                'name_ua' => (string) $offer->name_ua,
-                'vendor' => (string) $offer->vendor,
-                'description' => (string) $offer->description,
-                'pictures' => array_map(
-                    'strval',
-                    array_values(iterator_to_array($offer->picture))
-                ),
-            ];
-        }
-
-        return $products;
-    }
 
     public function index()
     {
-        $products = $this->loadProducts();
+        $products = ProductFeedService::loadProducts();
+        $categories = ProductFeedService::loadCategories();
 
         return view('products.index', [
             'products' => $products,
+            'categories' => $categories,
         ]);
     }
 
     public function show($id)
     {
-        $products = Collection::make($this->loadProducts());
+        $products = Collection::make(ProductFeedService::loadProducts());
         $product = $products->firstWhere('id', $id);
 
         abort_unless($product, 404);
 
+        $categories = ProductFeedService::loadCategories();
+
         return view('products.show', [
             'product' => $product,
+            'categories' => $categories,
         ]);
     }
 }
