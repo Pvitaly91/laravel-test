@@ -6,7 +6,7 @@
         @foreach($products as $product)
             <a href="{{ route('products.show', $product['id']) }}" class="block border rounded-lg bg-white hover:shadow p-4">
                 @if(!empty($product['pictures']))
-                    <img src="{{ $product['pictures'][0] ?? '' }}" alt="{{ $product['name'] }}" class="mb-2 w-full h-40 object-cover">
+                    <img src="{{ $product['pictures'][0] ?? '' }}" alt="{{ $product['name'] }}" class="mb-2 w-full h-40 object-contain">
                 @endif
                 <div class="font-semibold">{{ $product['name_ua'] ?: $product['name'] }}</div>
                 <div class="text-gray-600">{{ $product['price'] }} {{ $product['currency'] }}</div>
