@@ -37,7 +37,9 @@ class ProductFeedService
                 'name_ua' => (string) $offer->name_ua,
                 'vendor' => (string) $offer->vendor,
                 'description' => (string) $offer->description,
-                'pictures' => array_map('strval', array_values(iterator_to_array($offer->picture))),
+                // Cast SimpleXML list of <picture> tags to a plain array so all
+                // picture URLs are captured correctly
+                'pictures' => array_map('strval', (array) $offer->picture),
             ];
         }
 

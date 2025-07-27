@@ -6,19 +6,14 @@
     </div>
     <div class="flex flex-col md:flex-row gap-6">
         @if(!empty($product['pictures']))
-            <div class="md:w-1/2 space-y-2">
-                <a href="{{ $product['pictures'][0] ?? '' }}" data-fancybox="gallery">
-                    <img src="{{ $product['pictures'][0] ?? '' }}" alt="{{ $product['name'] }}" class="w-full rounded-lg object-contain">
-                </a>
-                @if(count($product['pictures']) > 1)
-                    <div class="grid grid-cols-3 gap-2">
-                        @foreach(array_slice($product['pictures'], 1) as $pic)
-                            <a href="{{ $pic }}" data-fancybox="gallery">
-                                <img src="{{ $pic }}" alt="{{ $product['name'] }}" class="w-full h-24 object-contain rounded">
-                            </a>
-                        @endforeach
-                    </div>
-                @endif
+            <div class="md:w-1/2">
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-2">
+                    @foreach($product['pictures'] as $pic)
+                        <a href="{{ $pic }}" data-fancybox="gallery">
+                            <img src="{{ $pic }}" alt="{{ $product['name'] }}" class="w-full h-40 object-contain rounded">
+                        </a>
+                    @endforeach
+                </div>
             </div>
         @endif
         <div class="md:w-1/2">
