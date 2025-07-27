@@ -23,6 +23,11 @@ class CategoryController extends Controller
             'category' => $category,
             'products' => $products,
             'categories' => $categories,
+            'breadcrumbs' => [
+                ['label' => 'Головна', 'url' => url('/')],
+                ['label' => 'Товари', 'url' => route('products.index')],
+                ['label' => $category['name']],
+            ],
         ]);
     }
 }

@@ -26,6 +26,7 @@
                 </aside>
             @endisset
             <main class="flex-1 p-4">
+                @include('partials.breadcrumbs')
                 @yield('content')
             </main>
         </div>

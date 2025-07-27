@@ -16,6 +16,10 @@ class ProductController extends Controller
         return view('products.index', [
             'products' => $products,
             'categories' => $categories,
+            'breadcrumbs' => [
+                ['label' => 'Головна', 'url' => url('/')],
+                ['label' => 'Товари'],
+            ],
         ]);
     }
 
@@ -31,6 +35,11 @@ class ProductController extends Controller
         return view('products.show', [
             'product' => $product,
             'categories' => $categories,
+            'breadcrumbs' => [
+                ['label' => 'Головна', 'url' => url('/')],
+                ['label' => 'Товари', 'url' => route('products.index')],
+                ['label' => $product['name_ua'] ?: $product['name']],
+            ],
         ]);
     }
 }
