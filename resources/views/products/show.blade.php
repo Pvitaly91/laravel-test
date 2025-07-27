@@ -6,12 +6,16 @@
     </div>
     <div class="flex flex-col md:flex-row gap-6">
         @if(!empty($product['pictures']))
+            @php($main = $product['pictures'][0])
             <div class="md:w-1/2">
-                <div class="grid grid-cols-2 md:grid-cols-3 gap-2">
+                <div class="mb-2">
+                    <a id="main-image-link" href="{{ $main }}" data-fancybox="gallery">
+                        <img id="main-image" src="{{ $main }}" alt="{{ $product['name'] }}" class="w-full max-h-96 object-contain rounded">
+                    </a>
+                </div>
+                <div class="flex gap-2 overflow-x-auto" id="thumbnails">
                     @foreach($product['pictures'] as $pic)
-                        <a href="{{ $pic }}" data-fancybox="gallery">
-                            <img src="{{ $pic }}" alt="{{ $product['name'] }}" class="w-full h-40 object-contain rounded">
-                        </a>
+                        <img src="{{ $pic }}" data-src="{{ $pic }}" class="thumb w-20 h-20 object-contain cursor-pointer border rounded" />
                     @endforeach
                 </div>
             </div>
@@ -22,4 +26,15 @@
             <div>{!! $product['description'] !!}</div>
         </div>
     </div>
+    @if(!empty($product['pictures']))
+        <script>
+            document.querySelectorAll('#thumbnails .thumb').forEach(img => {
+                img.addEventListener('click', () => {
+                    const url = img.dataset.src;
+                    document.getElementById('main-image').src = url;
+                    document.getElementById('main-image-link').href = url;
+                });
+            });
+        </script>
+    @endif
 @endsection
