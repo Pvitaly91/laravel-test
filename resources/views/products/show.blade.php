@@ -8,9 +8,9 @@
         @if(!empty($product['pictures']))
             @php($main = $product['pictures'][0])
             <div class="md:w-1/2">
-                <div class="mb-2">
+                <div id="main-image-container" class="mb-2 overflow-hidden flex justify-center items-center" style="height:auto">
                     <a id="main-image-link" href="{{ $main }}" data-fancybox="gallery">
-                        <img id="main-image" src="{{ $main }}" alt="{{ $product['name'] }}" class="w-full max-h-96 object-contain rounded">
+                        <img id="main-image" src="{{ $main }}" alt="{{ $product['name'] }}" class="w-full object-contain rounded">
                     </a>
                 </div>
                 <div class="flex gap-2 overflow-x-auto" id="thumbnails">
@@ -28,11 +28,24 @@
     </div>
     @if(!empty($product['pictures']))
         <script>
+            const mainImage = document.getElementById('main-image');
+            const container = document.getElementById('main-image-container');
+            const link = document.getElementById('main-image-link');
+
+            function updateHeight() {
+                if (mainImage.complete) {
+                    container.style.height = mainImage.naturalHeight + 'px';
+                }
+            }
+
+            mainImage.addEventListener('load', updateHeight);
+            window.addEventListener('DOMContentLoaded', updateHeight);
+
             document.querySelectorAll('#thumbnails .thumb').forEach(img => {
                 img.addEventListener('click', () => {
                     const url = img.dataset.src;
-                    document.getElementById('main-image').src = url;
-                    document.getElementById('main-image-link').href = url;
+                    link.href = url;
+                    mainImage.src = url;
                 });
             });
         </script>
