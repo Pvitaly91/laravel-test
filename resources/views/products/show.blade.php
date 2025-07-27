@@ -34,7 +34,7 @@
 
             function updateHeight() {
                 if (mainImage.complete) {
-                    container.style.height = mainImage.naturalHeight + 'px';
+                    container.style.height =  '500px';
                 }
             }
 
